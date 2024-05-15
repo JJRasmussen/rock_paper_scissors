@@ -12,4 +12,24 @@ else if (randomNumber < 0.66) {
 else 
     computerChoice = "scissors";
 
-    
+let winner = " "
+
+if (humanChoice === computerChoice) {
+    winner = "stalemate"
+}
+    else if (humanChoice === "rock") {
+        if (computerChoice === "paper"){
+            winner = "computer"
+        }
+        else winner = "human"
+    }
+    else if (humanChoice === "paper") {
+        if (computerChoice === "scissors"){
+            winner = "computer"
+        }
+        else winner = "human"
+    }
+    else if (computerChoice ==="rock"){
+        winner = "computer"
+    }
+        else(winner = "human")
