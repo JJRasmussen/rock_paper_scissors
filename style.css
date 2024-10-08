@@ -1,0 +1,96 @@
+div{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: peachpuff;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectionButtonPlacement{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.selectionDisplay{
+    display:flex;
+    justify-content: space-around;
+}
+
+.selectionPlacement{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+}
+
+.roundResultDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winnerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#roundWinner{
+    height:24px;
+}
+
+.scorePlacement{
+    display: flex;
+    width:700px;
+    justify-content: space-around;
+}
+
+.finishedGame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    Height: 32px;
+}
+.button{
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px;
+    border-radius: 40px;
+    width: 100px;
+}
+
+#btn_rock{
+    background-image: url('images/rock.jpg');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+
+#btn_paper{
+    background-image: url('images/paper.jpg');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+
+#btn_scissors{
+    background-image: url('images/scissors.jpg');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
