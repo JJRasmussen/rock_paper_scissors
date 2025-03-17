@@ -98,7 +98,7 @@ function playARound(humanChoice){
         roundMessage = "It's a stalemate";       
     }
     else {
-        roundMessage = ("The point goes to " + winner);
+        roundMessage = (winner);
     }
 
     const roundWinner = document.querySelector("#roundWinner");
